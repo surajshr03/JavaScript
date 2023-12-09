@@ -1,0 +1,112 @@
+//MERN ko class sakesi typescript herney!!!!
+
+clg+ tab : cosole.log
+
+alt+shift arrow(up/dpwn) to copy up and down
+
+ctrl +d to select others after selecting one.
+
+// we shall follow camel .
+
+alt + z to wrap code in small frame
+
+ >> CALL STACK(JS ko container jastai): one by one code awuxa execute hunxa janxa
+
+ >>Node  ko pani afnai special memory hunxa aka memory queue . call stack bata aako code lai node le memory queue ma store garxa
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+-> erroe ko end ma ctrl+. thichda correction option dinxa.
+
+-> ; is not necessary in js.
+
+-> string lai "" or '' ma rakhney.
+
+->Js is a - single thread, synchronous, blocking language.
+
+-> to run : nodemon filename.extension
+
+-> to stop: control c
+
+->comment: //  or ctrl+/(selecting the content and click ).
+
+->case sensitive.
+
+->3 : numbers, string, and boolean . PS:-string enclosed in "" or ''.
+->1+2=3(number)
+->"1"+"1"=11
+->1+"2"="12"(string le jitxa)
+
+-> + operator is the only operator used for number and string.
+
+->1+2+"3"+2+2  (if there's war betw num and string , string wins)
+    1+2=3
+    3+"3"="33"
+    "33"+2="332"
+    "332"+2="3322"
+
+->    let use garney to create container to store value and once created then need not be used let for that particular value again .
+      eg:
+      let name="ss"
+          name="sdf"
+
+          to call this variable,
+          console.log(name)
+
+-> Js is loosely type language.         
+        eg: let a=5
+                a=65
+                a="ss"
+                a=true
+
+                console.log(a)
+
+//MERN ko class sakesi typescript herney!!!!
+
+-> % : module, percentile, reminder.
+Operators:
+->arithmetic : +,-,*,/,%
+->compare: >,<, === , ==!
+logical :&&, || , !
+->assignment(=): =,+=,-=,*=,/=
+
+// rules to define variable
+ 
+ -> all empty are falsy;
+   -in case of number  0 is false other are true;
+   -in case of string "" is false other are true;
+
+-> to call variable -
+   `${what_to_call}`
+
+->if else 
+      - if(yo vitra bata true false matra awuxa//No variable declration here){
+
+      }
+      else{
+
+      }
+      for multiple:
+      if(){
+
+      }
+      else if(){
+
+      }
+      else{
+
+      }
+      //kunai euta chain true vayesi baki execute hudaina.
+      //new if new chain.
+
+ -> to import export  
+     
+     suppose in a.mjs
+       - export let name="sun"
+     suppose in another file index.mjs
+       -console.log(name); name ko last ma ctrl + space thichney ani select garney import file_Name ma.
+
+
